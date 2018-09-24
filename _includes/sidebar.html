@@ -1,0 +1,21 @@
+<div class="row extra_margin">
+    <div class="col text-center">
+        <img src="{{ site.baseurl }}/assets/images/avatar.jpg" class="rounded-circle" alt="...">
+        <h5>{{site.title}}</h5>
+        <h6>{{site.slogan}}</h6>
+    </div>
+</div>
+
+<div class="row extra_margin">
+    <div class="col text-center">
+        {% include nav.html %}
+    </div>
+</div>
+
+<div class="row extra_margin">
+    <div class="col-md text-center">        
+        <a href="https://github.com/{{site.github_username}}" target="_blank" class="text-dark"><i class="fab fa-github-square fa-lg"></i></a>
+        <a href="https://www.facebook.com/{{site.facebook_username}}" target="_blank" class="text-primary"><i class="fab fa-facebook-square fa-lg"></i></a>
+        <a href="mailto:{{site.email}}" class="text-success"><i class="fas fa-envelope-square fa-lg"></i></a>      
+    </div>
+</div>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <title>{{site.title}} - {{page.title}}</title>
+</head>
+
+<body>
+    <div class="container-fluid h-100">
+        <div class="row h-100">
+            <div class="col-md-3 bg-light">
+                {% include sidebar.html %}
+            </div>
+            <div class="col-md-9 text-center extra_margin">
+                <h1>{{page.title}}</h1>
+                
+                {{content}}                
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{{ site.baseurl }}/assets/js/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="{{ site.baseurl }}/assets/js/popper.min.js" crossorigin="anonymous"></script>
+    <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
