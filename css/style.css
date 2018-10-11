@@ -1,0 +1,110 @@
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.progress {
+  margin: 8px;
+  position: relative;
+}
+
+.progress-bar-title {
+  position: absolute;
+  text-align: center;
+  line-height: 15px; /* line-height should be equal to bar height */
+  overflow: hidden;
+  color: #fff;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.container-margin {
+  margin-top: 50px;
+}
+
+.carousel-item {
+  height: 225px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #e6e3e3;
+}
+
+.carousel-indicators .active{
+  background-color: #343a40;
+}
+
+.carousel-indicators {
+    bottom: -20px;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.margin-20 {
+  margin: 20px;
+  margin-top: 0;
+}
+
+footer {
+    height: 50px;    
+    position: absolute;
+    left: 0;
+    right: 0;    
+    max-width: 100%;    
+}
+
+.footer-row {
+  margin-top: 10px;
+}
+
+.footer-text {
+  margin-top: 4px;
+}
+
+.text-dark {
+  color: #343A40;
+}
+
+.text-muted-50 {
+  color: #e6e3e3!important;
+}
+
+.section-dark {
+  background-color: #343A40;  
+}
+
+.pd-lg {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.pd-sm {
+  padding-top: 50px;
+  padding-bottom: 50px;  
+}
+
+hr {
+  width: 100px;
+  border-width: 4px;
+  border-color: #e6e3e3;
+}
+
+.hr-dark {
+  width: 100px;
+  border-width: 4px;
+  border-color: #343A40;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.cards-center { 
+  justify-content: center !important; 
+} 
