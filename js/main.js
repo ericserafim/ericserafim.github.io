@@ -24,5 +24,14 @@ $(document).ready(function () {
     $('.popover-dismiss').popover({
         trigger: 'focus'
     });
+
+    $(document).ready(function () {
+        $('.carousel').hammer().on('swipeleft', function () {
+            $(this).carousel('next');
+        })
+        $('.carousel').hammer().on('swiperight', function () {
+            $(this).carousel('prev');
+        })
+    });
 });
 
