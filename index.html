@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="put something here">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css" crossorigin="anonymous">
     <title>Eric Serafim</title>
@@ -119,9 +120,58 @@
         <h1 class="text-center text-dark">What have I done?</h1>
         <hr class="hr-dark">
 
-
-        <div class="row">            
+        <div class="row">
             <div class="col">
+                <div class="card shadow-sm" style="width: 20rem;">
+                    <div class="card-body">
+                        <div id="project00" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#project00" data-slide-to="0" class="active"></li>
+                                <li data-target="#project00" data-slide-to="1"></li>
+                                <li data-target="#project00" data-slide-to="2"></li>
+                            </ol>
+                            <h5 class="text-center"><img src="img/html.svg" width="25px" alt="Html5"> Cover Letter Web</h5>
+                            <hr>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="d-block w-100">
+                                        <h6 class="text-dark">How I did?</h6>
+                                        Technologies<br>
+                                        <span class="badge badge-info">Html 5</span>
+                                        <span class="badge badge-info">CSS 3</span>
+                                        <span class="badge badge-info">Javascript</span>
+                                        <span class="badge badge-info">Bootstrap</span>
+                                        <br><br>Methods<br>
+                                        <span class="badge badge-warning">Ideation</span>
+                                        <span class="badge badge-warning">Design Thinking</span>
+                                        <span class="badge badge-warning">MVP</span>                                        
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <h6 class="text-dark">What I learned?</h6>
+                                        <p class="text-muted"> I figure out how I can use <span class="badge badge-info">Bootstrap</span> framework.<br>                                            
+                                            Also, I was able to practice CSS and Javascript as well.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-block w-100">
+                                        <h6 class="text-dark">Results archieved</h6>
+                                        <p class="text-muted">I finished my online cover letter. It was very useful because I was able to offer a good way for people know more about me.
+                                        </p>
+                                        Time<br>
+                                        <p class="text-muted">3 days.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <a tabindex="0" class="btn btn-outline-primary btn-sm margin-20" role="button" data-toggle="popover" data-trigger="focus" title="You're here!" data-content="You're using this project right now!">More</a>
+                </div>
+            </div>
+
+  <!--           <div class="col">
                 <div class="card shadow-sm" style="width: 20rem;">
                     <div class="card-body">
                         <div id="project0" class="carousel slide" data-ride="carousel">
@@ -130,7 +180,7 @@
                                 <li data-target="#project0" data-slide-to="1"></li>
                                 <li data-target="#project0" data-slide-to="2"></li>
                             </ol>
-                            <h5 class="text-center"><img src="img/flutter.svg" width="25px" alt="Kotlin"> Cover Letter</h5>
+                            <h5 class="text-center"><img src="img/flutter.svg" width="25px" alt="Kotlin"> Cover Letter App</h5>
                             <hr>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -176,7 +226,7 @@
                     <a href="https://play.google.com/store/apps/details?id=br.com.sidicom.smobseparacao" class="btn btn-outline-primary btn-sm margin-20"
                         role="button" target="_blank">More</a>
                 </div>
-            </div>
+            </div> -->
 
             <div class="col">
                 <div class="card shadow-sm" style="width: 20rem;">
@@ -663,13 +713,13 @@
                     <a href="https://twitter.com/ericserafim" class="text-muted-50" target="_blank">
                         <i class="fab fa-twitter-square fa-2x"></i>
                     </a>
-                    <small class="ml-3 text-muted-50">Made by myself with Bootstrap</small>
                 </div>
             </div>
         </div>
     </footer>
 
     <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/popper.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/main.js"></script>
 </body>
