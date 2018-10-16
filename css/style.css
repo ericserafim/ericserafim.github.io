@@ -13,10 +13,23 @@
   text-align: center;
   line-height: 15px; /* line-height should be equal to bar height */
   overflow: hidden;
-  color: #fff;
+  color: #212529;
   right: 0;
   left: 0;
   top: 0;
+  font-size: 95%;
+  font-weight: 600;
+}
+
+.badge {
+  font-size: 75%;
+  font-weight: 600;  
+}
+
+.badge-primary {
+  font-size: 75%;
+  font-weight: 700;
+  color: #212529;  
 }
 
 .container-margin {
@@ -80,8 +93,8 @@ footer {
 }
 
 .pd-lg {
-  padding-top: 150px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
 
 .pd-sm {
@@ -108,3 +121,11 @@ hr {
 .cards-center { 
   justify-content: center !important; 
 } 
+
+.rounded-circle {
+  margin-bottom: 10px;
+}
+
+.call-action {
+  width: 200px;
+}
