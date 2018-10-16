@@ -1,3 +1,7 @@
+html, body {
+  width: 100%;
+}
+
 .nopadding {
   padding: 0 !important;
   margin: 0 !important;
@@ -23,12 +27,16 @@
 
 .badge {
   font-size: 75%;
-  font-weight: 600;  
+  font-weight: 500;  
 }
 
 .badge-primary {
   font-size: 75%;
   font-weight: 700;
+  color: #212529;  
+}
+
+.badge-info {
   color: #212529;  
 }
 
@@ -116,11 +124,8 @@ hr {
 
 .card {
   margin-bottom: 20px;
+  min-width: 15rem;
 }
-
-.cards-center { 
-  justify-content: center !important; 
-} 
 
 .rounded-circle {
   margin-bottom: 10px;
